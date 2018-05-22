@@ -1,0 +1,23 @@
+.vue-notification {
+  font-size: 12px;
+  padding: 10px;
+  margin: 0 5px 5px;
+  color: #FFF;
+  background: #44A4FC;
+  border-left: 5px solid #187FE7;
+}
+
+.vue-notification.success {
+  background: #68CD86 !important;
+  border-left-color: #42A85F !important;
+}
+
+.vue-notification.warn {
+  background: #FFB648 !important;
+  border-left-color: #F48A06 !important;
+}
+
+.vue-notification.error {
+  background: #E54D42 !important;
+  border-left-color: #B82E24 !important;
+}
